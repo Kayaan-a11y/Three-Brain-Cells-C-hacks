@@ -1,0 +1,169 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.app-container {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+}
+
+h1 { 
+    color: #2d3748; 
+    margin-bottom: 5px; 
+}
+
+.subtitle { 
+    color: #718096; 
+    margin-top: 0; 
+    margin-bottom: 25px; 
+}
+
+input[type="file"] { 
+    display: none; 
+}
+
+.custom-button {
+    background-color: #3182ce;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.2s;
+}
+
+.custom-button:hover { 
+    background-color: #2b6cb0; 
+}
+
+.preview-section img {
+    max-width: 100%;
+    max-height: 250px;
+    margin: 20px auto 0;   /* auto side margins center the photo (it is display:block) */
+    border-radius: 8px;
+    border: 2px dashed #cbd5e0;
+}
+
+.result-card {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.bg-recycle { background-color: #3182ce; }
+.bg-compost { background-color: #38a169; }
+.bg-landfill,
+.bg-solid-waste { background-color: #4a5568; }
+.bg-paper-waste { background-color: #b7791f; }
+.bg-e-waste { background-color: #805ad5; }
+.bg-hazardous-waste {
+    background-color: #c53030;
+    border: 3px solid #f6e05e;
+    box-shadow: 0 0 0 3px #1a202c;   /* black + yellow warning-sign edge */
+}
+.bg-loading { background-color: #dd6b20; text-align: center; } 
+
+@keyframes fadeIn { 
+    from { opacity: 0; } 
+    to { opacity: 1; } 
+}body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.app-container {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+}
+
+h1 { 
+    color: #2d3748; 
+    margin-bottom: 5px; 
+}
+
+.subtitle { 
+    color: #718096; 
+    margin-top: 0; 
+    margin-bottom: 25px; 
+}
+
+input[type="file"] { 
+    display: none; 
+}
+
+.custom-button {
+    background-color: #3182ce;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.2s;
+}
+
+.custom-button:hover { 
+    background-color: #2b6cb0; 
+}
+
+.preview-section img {
+    max-width: 100%;
+    max-height: 250px;
+    margin: 20px auto 0;   /* auto side margins center the photo (it is display:block) */
+    border-radius: 8px;
+    border: 2px dashed #cbd5e0;
+}
+
+.result-card {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.bg-recycle { background-color: #3182ce; }
+.bg-compost { background-color: #38a169; }
+.bg-landfill,
+.bg-solid-waste { background-color: #4a5568; }
+.bg-paper-waste { background-color: #b7791f; }
+.bg-e-waste { background-color: #805ad5; }
+.bg-hazardous-waste {
+    background-color: #c53030;
+    border: 3px solid #f6e05e;
+    box-shadow: 0 0 0 3px #1a202c;   /* black + yellow warning-sign edge */
+}
+.bg-loading { background-color: #dd6b20; text-align: center; } 
+
+@keyframes fadeIn { 
+    from { opacity: 0; } 
+    to { opacity: 1; } 
+}

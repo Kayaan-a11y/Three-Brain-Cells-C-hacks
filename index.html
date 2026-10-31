@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BinBuddy - SDG 12 AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>♻️ BinBuddy</h1>
+        <p class="subtitle">SDG 12: Responsible Waste Sorting AI</p>
+
+        <div class="upload-section">
+            <label for="imageLoader" class="custom-button">📷 Scan Item / Upload Photo</label>
+            <input type="file" id="imageLoader" accept="image/*">
+        </div>
+
+        <div class="preview-section">
+            <img id="imagePreview" src="#" alt="Your item preview will appear here" style="display: none;">
+        </div>
+
+        <div id="resultBox" class="result-card" style="display: none;">
+            <h2 id="categoryText">Category: --</h2>
+            <p id="instructionText"><strong>Action:</strong> --</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+    <script src="app.js"></script>
+</body>
+</html>
